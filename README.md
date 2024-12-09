@@ -57,3 +57,23 @@ This project aims to innovate the real estate industry by integrating blockchain
 - **Admins**: Tokenize properties and oversee marketplace activities.  
 
 ---
+
+### **Notes on the Task**
+
+In the initial task description, it was mentioned:  
+> Currently, the project only has a dynamic background applied to the dashboard page, while the Properties page and other pages do not have any backgrounds. Your task is to set static backgrounds for these pages.
+
+When I launched the application, I didn’t see a dynamic background applied to the dashboard page, but I did find a slider with 3 images. Meanwhile, other pages already had static backgrounds, which appear to be the same slider. Therefore, I wasn’t completely sure about the exact task.
+
+- I added the `detail-carousel.tsx` component — a carousel for the property card.  
+- I updated `property-detail.tsx` — the property card.  
+
+Overall, the project looks like a boilerplate on Next.js — it’s hard to tell what it’s meant to be so far. It feels like a layout for some catalog, with pieces of backend that don’t yet interact with the frontend.
+
+Please note that I am not interested in hands-on frontend development. I’m already leading on several large-scale projects that bring real revenue to companies. However, I am generally interested in web3/products, provided that the company has an understanding of tokenomics models and has SMEs in the respective domains. Otherwise, such projects don’t make much sense for me.
+
+![image](https://i.postimg.cc/7hTyDzbG/Screenshot-2024-12-09-191855.png)
+
+Thanks!
+
+---
