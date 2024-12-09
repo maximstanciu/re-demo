@@ -3,12 +3,12 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import Image from 'next/image'
 import { FractionalOwnershipSlider } from '@/components/fractional-ownership-slider'
 import { ChevronLeft } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import { properties } from '@/lib/properties-data'
 import type { Property } from '@/lib/properties-data'
+import {DetailCarousel} from "@/components/detail-carousel";
 
 interface PropertyDetailProps {
   id: string
@@ -40,13 +40,7 @@ export function PropertyDetail({ id }: PropertyDetailProps) {
         
         <Card className="overflow-hidden bg-gray-700/50 border-gray-600">
           <div className="relative h-96">
-            <Image
-              src={property.image}
-              alt={property.title}
-              fill
-              className="object-cover"
-              priority
-            />
+            <DetailCarousel src={property.image} />
           </div>
           <CardContent className="p-6">
             <h1 className="text-3xl font-bold text-white mb-2">{property.title}</h1>
